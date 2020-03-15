@@ -23,7 +23,10 @@ Add the following configuration to `.vscode/settings.json` file at the root of y
 ```json
 {
   "git.ignoreLimitWarning": true,
-  "prettier.singleQuote": true
+  "editor.tabSize": 2,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.arrowParens": "always"
 }
 ```
 
