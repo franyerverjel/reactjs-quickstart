@@ -2,4 +2,27 @@ body {
   background-color: #212121;
   color: white;
   text-align: center;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #444;
+  padding: 10px 15px;
+  margin-bottom: 40px;
+  li {
+    display: inline;
+    padding: 5px 15px;
+    margin: 0px 10px;
+    a {
+      color: #999;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
